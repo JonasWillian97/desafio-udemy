@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(27, 185, 224);
+    font-family: monospace;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    height:50px ;
+    font-size: 24px;
+    padding: 0 20px;
+}
+form input:focus{
+    outline: 1px solid rgb(27, 185, 224);
+}
+form button{
+    border: none;
+    background: rgb(148, 144, 144);
+    font-size: 20px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+form button:hover{
+    background: rgb(27, 185, 224);
+    color: white;
+}
+form button:active{
+    background: #191970;
+}
